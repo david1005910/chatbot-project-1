@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1D4ED8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#grad1)"/>
+  <g fill="white">
+    <!-- Shopping cart icon -->
+    <path d="M160 416c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zm192 0c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32z"/>
+    <path d="M96 80h40l8 40h272c8.8 0 16 7.2 16 16v8l-48 144H176l-16-80H96V80z" fill-opacity="0.9"/>
+    <!-- Chart arrow up -->
+    <path d="M320 200l48-48v32h48v-80h-80v48h32l-48 48z" fill-opacity="0.95"/>
+    <path d="M280 280l80-120H200z" fill-opacity="0.8"/>
+  </g>
+</svg>
