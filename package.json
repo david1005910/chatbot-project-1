@@ -23,7 +23,7 @@
     "pm2:logs": "pm2 logs coupang-sourcing"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.32.1",
+    "@anthropic-ai/sdk": "^0.71.2",
     "@supabase/ssr": "^0.8.0",
     "@supabase/supabase-js": "^2.86.2",
     "@tensorflow/tfjs": "^4.21.0",
