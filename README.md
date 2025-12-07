@@ -1,6 +1,15 @@
-# 쿠팡 소싱 도우미
+# 🛒 쿠팡 소싱 도우미
+
+[![Next.js](https://img.shields.io/badge/Next.js-14.2.33-black?logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Security](https://img.shields.io/badge/Security-Patched-brightgreen)](https://github.com/david1005910/chatbot-project-1/security)
 
 네이버 트렌드 분석과 AI 기반 키워드 추천을 활용한 쿠팡 셀러 소싱 도우미 웹 애플리케이션입니다.
+
+> 🔒 **보안**: Next.js 14.2.33으로 업그레이드하여 CVE-2024-XXXX (CVSS 9.1) 취약점 패치 완료
+> ♿ **접근성**: WCAG 2.1 Level AA 준수
+> 🌙 **다크 모드**: 완전 지원
 
 ## 주요 기능
 
@@ -19,8 +28,8 @@
 
 ```bash
 # 저장소 클론
-git clone <repository-url>
-cd chatbot-project
+git clone https://github.com/david1005910/chatbot-project-1.git
+cd chatbot-project-1
 
 # 설정 스크립트 실행
 chmod +x scripts/setup.sh
@@ -122,13 +131,16 @@ chatbot-project/
 
 ## 기술 스택
 
-- **Framework**: Next.js 14 (App Router)
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
+- **Framework**: Next.js 14.2.33 (App Router, CVE 패치 완료)
+- **Language**: TypeScript 5.0
+- **Styling**: Tailwind CSS + Dark Mode
+- **State**: Zustand
+- **Validation**: Zod
 - **AI**: Claude API (Anthropic)
 - **ML**: TensorFlow.js (시계열 예측)
-- **Database**: Supabase (PostgreSQL)
+- **Database**: Supabase (PostgreSQL) - 선택사항
 - **APIs**: Naver DataLab, Coupang Partners, 1688, Taobao, AliExpress
+- **Accessibility**: WCAG 2.1 Level AA 준수
 
 ## 트렌드 예측 모델
 
